@@ -51,4 +51,7 @@ dependencies {
 
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.inline)
+
+    androidTestImplementation(libs.androidx.runner)
+    androidTestImplementation(libs.androidx.rules)
 }
